@@ -1,5 +1,5 @@
 {
-    "name": "laravelcollective/html",
+    "name": "tufayalhossin/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "Adam Engebretson",
-            "email": "adam@laravelcollective.com"
+            "name": "Tufayal Hossin",
+            "email": "tufayalhossin.v1.1@gmail.com"
         },
         {
             "name": "Taylor Otwell",
@@ -19,16 +19,16 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/view": "^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/view": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "require-dev": {
-        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.5.3|^12.0",
         "mockery/mockery": "~1.0",
-        "phpunit/phpunit": "~8.5|^9.5.10"
+        "phpunit/phpunit": "~8.5|^9.5.10|^10.5|^11.5.3|^12.0"
     },
     "autoload": {
         "psr-4": {
@@ -40,7 +40,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.x-dev"
+            "dev-master": "7.x-dev"
         },
         "laravel": {
             "providers": [
